@@ -1,0 +1,15 @@
+main: com.cavetale.itemmarker.ItemMarkerPlugin
+name: ItemMarker
+version: 0.1
+api-version: 1.13
+description: Mark items with hidden tags.
+website: https://cavetale.com
+commands:
+  itemmarker:
+    description: ItemMarker
+    permission: itemmarker.itemmarker
+    usage: |-
+      /itemmarker info - Info about item in hand
+permissions:
+  itemmarker.itemmarker:
+    description: Use /itemmarker
